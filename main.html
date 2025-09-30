@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -17,60 +16,6 @@
 		<li>
             <a href="https://en.wikipedia.org/wiki/Poodle">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg" width="500" alt="Poodle">
-            </a>
-        </li>
-	</ul>
-    <script type="text/javascript" src="./script.js"></script>
-</body>
-
-</html>
-Make these adjustments, and your webpage should display correctly! If you have any further questions or need more assistance, feel free to ask!
-
-
-AccioJob Mentor
-
-
-still all test cases is not passes
-
-AM
-Let’s troubleshoot the issues step by step. Here are a few things to check to ensure all test cases pass:
-
-Image URLs: Make sure that the image URLs are correct and accessible. You should verify that the images load correctly in your browser. Here are the URLs again for reference:
-
-Golden Retriever: https://upload.wikimedia.org/wikipedia/commons/a/a1/Golden_Retriever.jpg
-Poodle: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg
-Correct HTML Structure: Ensure that your HTML structure matches the requirements exactly. For example, ensure that you have:
-
-An <h1> tag for the title.
-An unordered list (<ul>) containing two list items (<li>), each with an anchor tag (<a>) wrapping an image tag (<img>).
-JavaScript File: Make sure that the script.js file does not contain any errors that might affect the rendering of the page. If it’s empty, that’s fine, but if it has any code, ensure it doesn’t interfere with the HTML.
-
-CSS File: If you have a styles.css file, make sure it doesn’t hide any elements or change the layout in a way that affects the visibility of your images or links.
-
-Testing Environment: Ensure you are running your HTML file in the correct environment (like a local server or directly in a browser) that allows you to see the changes.
-
-Check Console for Errors: Open the developer console in your browser (usually F12) and check for any errors that might indicate what is going wrong.
-
-Here’s the final version of your code to ensure everything is correct:
-
-<!DOCTYPE html>
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<h1>Dog Adoption</h1>
-	<ul>
-		<li>
-            <a href="https://en.wikipedia.org/wiki/Golden_Retriever">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Golden_Retriever.jpg" alt="Golden Retriever">
-            </a>
-        </li>
-		<li>
-            <a href="https://en.wikipedia.org/wiki/Poodle">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg" alt="Poodle">
             </a>
         </li>
 	</ul>
